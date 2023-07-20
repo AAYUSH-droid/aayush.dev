@@ -1,0 +1,234 @@
+const projects: Project[] = [
+  {
+    title: "Buymate",
+    description:
+      "A fully-functional e-commerce platform that comes with personalized profiles and dashboards, order placing, order status, authentication, displaying prodcuts, filters, etc.",
+    links: [
+      {
+        type: "youtube",
+        link: "https://www.youtube.com/watch?v=y1L-zRZlLM8&ab_channel=aayushsharma",
+      },
+      {
+        type: "github",
+        link: "https://github.com/AAYUSH-droid/BuyMate",
+      },
+      // {
+      //   type: "youtube",
+      //   link: "https://youtu.be/qoQxXQ06DRE",
+      // },
+    ],
+    image: "/images/projects/buymate.png",
+    tags: [
+      "Next.js",
+      "React",
+      "TailwindCSS",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+    ],
+  },
+  {
+    title: "CarrerSpot Jobio",
+    description:
+      "A full stack MERN web application to track your job applications built with Modern UI for a better user experience.",
+    links: [
+      {
+        type: "website",
+        link: "https://main--monumental-gnome-c88b94.netlify.app/",
+      },
+      {
+        type: "github",
+        link: "https://github.com/AAYUSH-droid/CareerSpot",
+      },
+    ],
+    image: "/images/projects/carrerspot.png",
+    tags: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "MongoDB",
+      "Mongoose",
+      "NodeJS",
+      "ExpressJS",
+    ],
+  },
+  {
+    title: "Pixell",
+    description:
+      "A pixel art NFT marketplace on the Ethereum blockchain. The platform supports creation, minting, selling and buying of pixel art NFTs on the Ropsten Testnet.",
+    links: [
+      {
+        type: "website",
+        link: "https://pixell.vercel.app",
+      },
+      {
+        type: "github",
+        link: "https://github.com/ananyalohani/pixell",
+      },
+    ],
+    image: "/images/projects/pixell.png",
+    tags: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "Solidity",
+      "Hardhat",
+      "Prisma",
+      "MetaMask",
+    ],
+  },
+  {
+    title: "Ecstacy",
+    description:
+      "A secure, e-commerce website developed primarily to facilitate buying and selling of products among users",
+    links: [
+      {
+        type: "github",
+        link: "https://github.com/ecstacy-fcs/client",
+      },
+    ],
+    image: "/images/projects/ecstacy.jpeg",
+    tags: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Chakra UI",
+      "Express",
+      "Prisma",
+      "Nginx",
+    ],
+  },
+  {
+    title: "Byld, IIIT Delhi",
+    description:
+      "The official website of Byld, the software development club of IIIT Delhi.",
+    links: [
+      {
+        type: "website",
+        link: "https://byld.iiitd.edu.in",
+      },
+      {
+        type: "github",
+        link: "https://github.com/IIIT-Delhi/byld.iiitd.edu.in",
+      },
+    ],
+    image: "/images/projects/byld-iiitd.png",
+    tags: ["Svelte", "SvelteKit", "TypeScript", "TailwindCSS"],
+  },
+  {
+    title: "Tiiime",
+    description:
+      "A prototype of a crowdsourced time management app for IIIT Delhi students.",
+    links: [
+      {
+        type: "behance",
+        link: "https://ananya.li/tiiime",
+      },
+      {
+        type: "figma",
+        link: "https://www.figma.com/file/9kd9hljQSiMij2e2ailPmQ/Tiiime?node-id=358%3A155",
+      },
+    ],
+    image: "/images/projects/tiiime.png",
+    tags: ["Figma", "Miro", "Excalidraw", "UI/UX", "Prototyping"],
+  },
+  {
+    title: "Mausam",
+    description:
+      "A single-page web app that fetches the weather data for the next 6 days from the Metaweather API.",
+    links: [
+      {
+        type: "website",
+        link: "https://mausam.vercel.app",
+      },
+      {
+        type: "github",
+        link: "https://github.com/ananyalohani/mausam",
+      },
+    ],
+    image: "/images/projects/mausam.png",
+    tags: [
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "Metaweather API",
+      "OpenStreetMap API",
+    ],
+  },
+  {
+    title: "IIITD Playbook",
+    description:
+      "IIITD Playbook provides multiple strategies, experiences, and stories to guide the current students of IIIT Delhi.",
+    links: [
+      {
+        type: "website",
+        link: "https://iiitdplaybook.web.app",
+      },
+      {
+        type: "github",
+        link: "https://github.com/iiitdplaybook/iiitdplaybook",
+      },
+    ],
+    image: "/images/projects/playbook.png",
+    tags: ["React", "CSS", "Material UI", "Google Firebase"],
+  },
+  {
+    title: "Color Switch",
+    description:
+      "A clone of the popular mobile game Color Switch for desktop built using object-oriented and event-driven programming.",
+    links: [
+      {
+        type: "github",
+        link: "https://github.com/ananyalohani/color-switch-java",
+      },
+    ],
+    image: "/images/projects/color-switch.png",
+    tags: ["Java", "JavaFX", "FXML", "CSS", "Gradle"],
+  },
+  {
+    title: "lohanish",
+    description:
+      "A Unix shell coded in C, consisting of 10 commands with 2 options each and accepting all possible arguments.",
+    links: [
+      {
+        type: "github",
+        link: "https://github.com/ananyalohani/lohanish",
+      },
+    ],
+    image: "/images/projects/lohanish.png",
+    tags: ["C", "Linux", "Unix"],
+  },
+  {
+    title: "Perceptris",
+    description:
+      "A multiplayer, gesture-controlled version of the game Tetris using ultrasonic, touch and piezoelectric sensors.",
+    links: [
+      {
+        type: "github",
+        link: "https://github.com/ananyalohani/Perceptris",
+      },
+      {
+        type: "youtube",
+        link: "https://youtu.be/RkxJqoUfYXY",
+      },
+    ],
+    image: "/images/projects/perceptris.png",
+    tags: ["Arduino", "Processing", "C++", "Rapid Prototyping"],
+  },
+];
+
+export interface Project {
+  title: string;
+  description: string;
+  links: {
+    type: "youtube" | "github" | "website" | "behance" | "link" | "figma";
+    link: string;
+  }[];
+  image: string;
+  tags: string[];
+}
+
+export default projects;
