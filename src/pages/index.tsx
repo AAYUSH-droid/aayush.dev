@@ -3,8 +3,10 @@ import Layout from "~/layouts/Layout";
 import { getAllPosts } from "~/lib/mdx";
 import About from "~/sections/About";
 import Contact from "~/sections/Contact";
+import RecentExp from "~/sections/RecentExperience";
 import RecentPosts from "~/sections/RecentPosts";
 import RecentProjects from "~/sections/RecentProjects";
+
 import Skills from "~/sections/Skills";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
@@ -20,7 +22,8 @@ export default function Home({ posts }: any) {
     <Layout>
       <About />
       <RecentProjects />
-      <RecentPosts posts={posts} />
+      {/* <RecentPosts posts={posts} /> */}
+      <RecentExp posts={posts} />
       <Skills />
       <Contact />
     </Layout>

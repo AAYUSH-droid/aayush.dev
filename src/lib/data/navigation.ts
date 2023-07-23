@@ -1,24 +1,29 @@
 const navigation = [
   {
-    name: 'about',
-    title: 'About',
-    path: '/',
+    name: "about",
+    title: "About",
+    path: "/",
   },
   {
-    name: 'projects',
-    title: 'Projects',
-    path: '/projects',
-  },
-  {
-    name: 'blog',
-    title: 'Blog',
-    path: '/blog',
+    name: "projects",
+    title: "Projects",
+    path: "/projects",
   },
   // {
-  //   name: 'resume',
-  //   title: 'Resume',
-  //   path: 'https://drive.google.com/file/d/18XGrc5pl0dEFYPoRX8LZIcEXF2_3zyb_',
+  //   name: "blog",
+  //   title: "Blog",
+  //   path: "/blog",
   // },
+  // {
+  //   name: "blog",
+  //   title: "Experience",
+  //   path: "/blog",
+  // },
+  {
+    name: "resume",
+    title: "Resume",
+    path: "",
+  },
 ];
 
 export default navigation;

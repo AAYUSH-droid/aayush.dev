@@ -10,10 +10,10 @@ import {
   FaRedditAlien,
   FaFacebookSquare,
   FaWhatsapp,
-} from 'react-icons/fa';
-import Polywork from '~/components/Polywork';
-import { ReactElement } from 'react';
-import { IconType } from 'react-icons/lib';
+} from "react-icons/fa";
+import Polywork from "~/components/Polywork";
+import { ReactElement } from "react";
+import { IconType } from "react-icons/lib";
 import {
   EmailShareButton,
   LinkedinShareButton,
@@ -22,38 +22,38 @@ import {
   TelegramShareButton,
   TwitterShareButton,
   WhatsappShareButton,
-} from 'react-share';
+} from "react-share";
 
 const socials: Social[] = [
   {
-    color: 'black',
+    color: "black",
     icon: FaGithub,
-    text: 'GitHub',
-    link: 'https://github.com/ananyalohani',
+    text: "GitHub",
+    link: "https://github.com/AAYUSH-droid",
   },
+  // {
+  //   color: 'sky',
+  //   icon: FaTwitter,
+  //   text: 'Twitter',
+  //   link: '',
+  // },
+  // {
+  //   color: 'pink',
+  //   icon: FaInstagram,
+  //   text: 'Instagram',
+  //   link: '',
+  // },
+  // {
+  //   color: 'indigo',
+  //   icon: Polywork,
+  //   text: 'Polywork',
+  //   link: '',
+  // },
   {
-    color: 'sky',
-    icon: FaTwitter,
-    text: 'Twitter',
-    link: 'https://twitter.com/ananyalohani_',
-  },
-  {
-    color: 'pink',
-    icon: FaInstagram,
-    text: 'Instagram',
-    link: 'https://instagram.com/ananyalohani',
-  },
-  {
-    color: 'indigo',
-    icon: Polywork,
-    text: 'Polywork',
-    link: 'https://www.polywork.com/ananyalohani',
-  },
-  {
-    color: 'dark-blue',
+    color: "dark-blue",
     icon: FaLinkedinIn,
-    text: 'LinkedIn',
-    link: 'https://linkedin.com/in/ananyalohani',
+    text: "LinkedIn",
+    link: "https://www.linkedin.com/in/aayush-sharma-5239321b8/",
   },
   // {
   //   color: 'blue',
@@ -61,62 +61,62 @@ const socials: Social[] = [
   //   text: 'Behance',
   //   link: 'https://www.behance.net/ananyalohani',
   // },
-  {
-    color: 'sky',
-    icon: FaTelegramPlane,
-    text: 'Telegram',
-    link: 'https://t.me/ananyalohani',
-  },
   // {
-  //   color: 'teal',
-  //   icon: FaEnvelope,
-  //   text: 'Email',
-  //   link: 'mailto:ananya@lohani.dev',
+  //   color: 'sky',
+  //   icon: FaTelegramPlane,
+  //   text: 'Telegram',
+  //   link: 'https://t.me/ananyalohani',
   // },
+  {
+    color: "teal",
+    icon: FaEnvelope,
+    text: "Gmail",
+    link: "mailto:sharma31aayush@gmail.com",
+  },
 ];
 
 export const shareSocials: ShareSocial[] = [
   {
-    name: 'Twitter',
+    name: "Twitter",
     icon: FaTwitter,
     shareComponent: TwitterShareButton,
-    color: 'sky',
+    color: "sky",
   },
   {
-    name: 'Linkedin',
+    name: "Linkedin",
     icon: FaLinkedin,
     shareComponent: LinkedinShareButton,
-    color: 'dark-blue',
+    color: "dark-blue",
   },
   {
-    name: 'Reddit',
+    name: "Reddit",
     icon: FaRedditAlien,
     shareComponent: RedditShareButton,
-    color: 'orange',
+    color: "orange",
   },
   {
-    name: 'Whatsapp',
+    name: "Whatsapp",
     icon: FaWhatsapp,
     shareComponent: WhatsappShareButton,
-    color: 'green',
+    color: "green",
   },
   {
-    name: 'Telegram',
+    name: "Telegram",
     icon: FaTelegramPlane,
     shareComponent: TelegramShareButton,
-    color: 'sky',
+    color: "sky",
   },
   {
-    name: 'Facebook',
+    name: "Facebook",
     icon: FaFacebookSquare,
     shareComponent: FacebookShareButton,
-    color: 'dark-blue',
+    color: "dark-blue",
   },
   {
-    name: 'Email',
+    name: "Email",
     icon: FaEnvelope,
     shareComponent: EmailShareButton,
-    color: 'teal',
+    color: "teal",
   },
 ];
 

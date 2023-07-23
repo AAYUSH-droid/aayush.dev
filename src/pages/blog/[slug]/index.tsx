@@ -1,9 +1,9 @@
-import React, { ReactElement, useState } from 'react';
-import Modal from '~/components/Modal';
-import PostLayout from '~/layouts/PostLayout';
-import { getAllPosts, getSinglePost } from '~/lib/mdx';
-import ShareButtons from '~/sections/ShareButtons';
-import { Post } from '~/types/blog';
+import React, { ReactElement, useState } from "react";
+import Modal from "~/components/Modal";
+import PostLayout from "~/layouts/PostLayout";
+import { getAllPosts, getSinglePost } from "~/lib/mdx";
+import ShareButtons from "~/sections/ShareButtons";
+import { Post } from "~/types/blog";
 
 export const getStaticProps = async ({ params }: any) => {
   const post = await getSinglePost(params.slug);
@@ -41,15 +41,15 @@ export default function BlogPost(meta: Post): ReactElement {
       {open && (
         <Modal
           open={open}
-          className='flex flex-col items-center w-2/5 space-y-4'
+          className="flex flex-col items-center w-2/5 space-y-4"
           setOpen={setOpen}
           onClose={onModalClose}
           onOpen={onModalOpen}
         >
-          <h1 className='w-full pb-2 text-3xl text-center text-gray-800 border-b border-gray-300'>
+          <h1 className="w-full pb-2 text-3xl text-center text-gray-800 border-b border-gray-300">
             Share this Post!
           </h1>
-          <p className='pb-4 text-lg text-gray-800'>
+          <p className="pb-4 text-lg text-gray-800">
             Share this blog post to any of the following platforms:
           </p>
           <ShareButtons url={meta.url!} />

@@ -2,7 +2,7 @@ const projects: Project[] = [
   {
     title: "Buymate",
     description:
-      "A fully-functional e-commerce platform that comes with personalized profiles and dashboards, order placing, order status, authentication, displaying prodcuts, filters, etc.",
+      "A secure e-commerce platform developed that comes with personalized profiles and dashboards, order placing, order status, authentication, displaying prodcuts, filters, etc.",
     links: [
       {
         type: "youtube",
@@ -55,169 +55,156 @@ const projects: Project[] = [
     ],
   },
   {
-    title: "Pixell",
+    title: "Community Management API",
     description:
-      "A pixel art NFT marketplace on the Ethereum blockchain. The platform supports creation, minting, selling and buying of pixel art NFTs on the Ropsten Testnet.",
+      "A SaaS Platform that enables user to make their communities and add members to it. Each user, can create a community and gets assigned the Community Admin role. They can add other users to the community who get assigned the Community Member role.",
     links: [
       {
         type: "website",
-        link: "https://pixell.vercel.app",
+        link: "https://www.postman.com/martian-capsule-474179/workspace/my-projects/collection/24748920-6ab3444d-f467-430b-b86a-a120eedcb204",
       },
       {
         type: "github",
-        link: "https://github.com/ananyalohani/pixell",
+        link: "https://github.com/AAYUSH-droid/Community-Management-API",
       },
     ],
-    image: "/images/projects/pixell.png",
+    image: "/images/projects/commAPI.png",
     tags: [
-      "Next.js",
-      "React",
       "TypeScript",
-      "TailwindCSS",
-      "Solidity",
-      "Hardhat",
-      "Prisma",
-      "MetaMask",
+      "Sequalize ORM",
+      "NodeJS",
+      "ExpressJS",
+      "MySQL",
+      "PostgreSQL",
     ],
   },
   {
-    title: "Ecstacy",
+    title: "React Meetups",
     description:
-      "A secure, e-commerce website developed primarily to facilitate buying and selling of products among users",
-    links: [
-      {
-        type: "github",
-        link: "https://github.com/ecstacy-fcs/client",
-      },
-    ],
-    image: "/images/projects/ecstacy.jpeg",
-    tags: [
-      "Next.js",
-      "React",
-      "TypeScript",
-      "Chakra UI",
-      "Express",
-      "Prisma",
-      "Nginx",
-    ],
-  },
-  {
-    title: "Byld, IIIT Delhi",
-    description:
-      "The official website of Byld, the software development club of IIIT Delhi.",
+      "A meetup app made with ReactJs and firebase. Choose the place, Add to favorites, visit!",
     links: [
       {
         type: "website",
-        link: "https://byld.iiitd.edu.in",
+        link: "",
       },
       {
         type: "github",
-        link: "https://github.com/IIIT-Delhi/byld.iiitd.edu.in",
+        link: "https://github.com/AAYUSH-droid/Meetups-app",
       },
     ],
-    image: "/images/projects/byld-iiitd.png",
-    tags: ["Svelte", "SvelteKit", "TypeScript", "TailwindCSS"],
+    image: "/images/projects/reactmeetup.png",
+    tags: ["Next.js", "React", "TypeScript", "Firebase", "TailwindCSS"],
   },
   {
-    title: "Tiiime",
+    title: "Wallet Watch",
     description:
-      "A prototype of a crowdsourced time management app for IIIT Delhi students.",
-    links: [
-      {
-        type: "behance",
-        link: "https://ananya.li/tiiime",
-      },
-      {
-        type: "figma",
-        link: "https://www.figma.com/file/9kd9hljQSiMij2e2ailPmQ/Tiiime?node-id=358%3A155",
-      },
-    ],
-    image: "/images/projects/tiiime.png",
-    tags: ["Figma", "Miro", "Excalidraw", "UI/UX", "Prototyping"],
-  },
-  {
-    title: "Mausam",
-    description:
-      "A single-page web app that fetches the weather data for the next 6 days from the Metaweather API.",
+      "A Expense Tracker application built with React to manage daily expenses.",
     links: [
       {
         type: "website",
-        link: "https://mausam.vercel.app",
+        link: "https://expenseetracker-reactjs.netlify.app/",
       },
       {
         type: "github",
-        link: "https://github.com/ananyalohani/mausam",
+        link: "https://github.com/AAYUSH-droid/Wallet-Watch",
       },
     ],
-    image: "/images/projects/mausam.png",
-    tags: [
-      "React",
-      "TypeScript",
-      "TailwindCSS",
-      "Metaweather API",
-      "OpenStreetMap API",
-    ],
+    image: "/images/projects/expenseApp.png",
+    tags: ["React", "TypeScript", "TailwindCSS"],
   },
   {
-    title: "IIITD Playbook",
+    title: "Bankist",
     description:
-      "IIITD Playbook provides multiple strategies, experiences, and stories to guide the current students of IIIT Delhi.",
+      "A bank app with real world features to manage your money.It has dummy bank account data with features which allows to transfer, receive money. It also enables you to close your bank account.",
     links: [
       {
         type: "website",
-        link: "https://iiitdplaybook.web.app",
+        link: "https://bankistapp-jshtmlcss.netlify.app/",
       },
       {
         type: "github",
-        link: "https://github.com/iiitdplaybook/iiitdplaybook",
+        link: "https://github.com/AAYUSH-droid/Bankist-App",
       },
     ],
-    image: "/images/projects/playbook.png",
-    tags: ["React", "CSS", "Material UI", "Google Firebase"],
+    image: "/images/projects/bankist.png",
+    tags: ["Html", "CSS", "JavaScript"],
   },
   {
-    title: "Color Switch",
-    description:
-      "A clone of the popular mobile game Color Switch for desktop built using object-oriented and event-driven programming.",
+    title: "Guess the Number",
+    description: "Guess the correct number and take a highscore!!",
     links: [
       {
-        type: "github",
-        link: "https://github.com/ananyalohani/color-switch-java",
-      },
-    ],
-    image: "/images/projects/color-switch.png",
-    tags: ["Java", "JavaFX", "FXML", "CSS", "Gradle"],
-  },
-  {
-    title: "lohanish",
-    description:
-      "A Unix shell coded in C, consisting of 10 commands with 2 options each and accepting all possible arguments.",
-    links: [
-      {
-        type: "github",
-        link: "https://github.com/ananyalohani/lohanish",
-      },
-    ],
-    image: "/images/projects/lohanish.png",
-    tags: ["C", "Linux", "Unix"],
-  },
-  {
-    title: "Perceptris",
-    description:
-      "A multiplayer, gesture-controlled version of the game Tetris using ultrasonic, touch and piezoelectric sensors.",
-    links: [
-      {
-        type: "github",
-        link: "https://github.com/ananyalohani/Perceptris",
+        type: "website",
+        link: "https://guess-the-number-game-git-main-aayush-droid.vercel.app/",
       },
       {
-        type: "youtube",
-        link: "https://youtu.be/RkxJqoUfYXY",
+        type: "github",
+        link: "https://github.com/AAYUSH-droid/Guess-the-number-Game",
       },
     ],
-    image: "/images/projects/perceptris.png",
-    tags: ["Arduino", "Processing", "C++", "Rapid Prototyping"],
+    image: "/images/projects/noGame.png",
+    tags: ["HTML", "CSS", "JavaScript"],
   },
+  // {
+  //   title: "IIITD Playbook",
+  //   description:
+  //     "IIITD Playbook provides multiple strategies, experiences, and stories to guide the current students of IIIT Delhi.",
+  //   links: [
+  //     {
+  //       type: "website",
+  //       link: "https://iiitdplaybook.web.app",
+  //     },
+  //     {
+  //       type: "github",
+  //       link: "https://github.com/iiitdplaybook/iiitdplaybook",
+  //     },
+  //   ],
+  //   image: "/images/projects/playbook.png",
+  //   tags: ["React", "CSS", "Material UI", "Google Firebase"],
+  // },
+  // {
+  //   title: "Color Switch",
+  //   description:
+  //     "A clone of the popular mobile game Color Switch for desktop built using object-oriented and event-driven programming.",
+  //   links: [
+  //     {
+  //       type: "github",
+  //       link: "https://github.com/ananyalohani/color-switch-java",
+  //     },
+  //   ],
+  //   image: "/images/projects/color-switch.png",
+  //   tags: ["Java", "JavaFX", "FXML", "CSS", "Gradle"],
+  // },
+  // {
+  //   title: "lohanish",
+  //   description:
+  //     "A Unix shell coded in C, consisting of 10 commands with 2 options each and accepting all possible arguments.",
+  //   links: [
+  //     {
+  //       type: "github",
+  //       link: "https://github.com/ananyalohani/lohanish",
+  //     },
+  //   ],
+  //   image: "/images/projects/lohanish.png",
+  //   tags: ["C", "Linux", "Unix"],
+  // },
+  // {
+  //   title: "Perceptris",
+  //   description:
+  //     "A multiplayer, gesture-controlled version of the game Tetris using ultrasonic, touch and piezoelectric sensors.",
+  //   links: [
+  //     {
+  //       type: "github",
+  //       link: "https://github.com/ananyalohani/Perceptris",
+  //     },
+  //     {
+  //       type: "youtube",
+  //       link: "https://youtu.be/RkxJqoUfYXY",
+  //     },
+  //   ],
+  //   image: "/images/projects/perceptris.png",
+  //   tags: ["Arduino", "Processing", "C++", "Rapid Prototyping"],
+  // },
 ];
 
 export interface Project {

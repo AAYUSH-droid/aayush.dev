@@ -1,6 +1,6 @@
-import React from 'react';
-import Layout from '~/layouts/Layout';
+import React from "react";
+import Layout from "~/layouts/Layout";
 
 export default function Work() {
-  return <Layout title='Ananya Lohani • Work'></Layout>;
+  return <Layout title="Aayush Sharma • Work"></Layout>;
 }

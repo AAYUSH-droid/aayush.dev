@@ -15,26 +15,26 @@ function MyApp({ Component, pageProps }: AppProps) {
       <DefaultSeo
         defaultTitle="Aayush Sharma"
         titleTemplate="Aayush Sharma • %s"
-        description="Ananya Lohani is a 3rd year undergrad student majoring in CSE at IIIT Delhi."
+        description="Aayush Sharma is a final year undergrad student majoring in CSE at BIT Mesra."
         openGraph={{
           type: "website",
           locale: "en_IE",
           url: url,
-          site_name: "Ananya Lohani",
+          site_name: "Aayush Sharma",
           title: "Aayush Sharma",
           description:
-            "Ananya Lohani is a 3rd year undergrad student majoring in CSE at IIIT Delhi.",
+            "Aayush Sharma is a final year undergrad student majoring in CSE at BIT Mesra",
           images: [
-            {
-              url: `${url}/images/ananya-seo.png`,
-              alt: "Ananya Lohani",
-            },
+            // {
+            //   url: `${url}/images/ananya-seo.png`,
+            //   alt: "",
+            // },
           ],
         }}
-        twitter={{
-          handle: "@ananyalohani_",
-          cardType: "summary_large_image",
-        }}
+        // twitter={{
+        //   handle: "",
+        //   cardType: "summary_large_image",
+        // }}
       />
       <Component {...pageProps} />
     </>

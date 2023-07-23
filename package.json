@@ -14,7 +14,7 @@
     "esbuild": "^0.12.29",
     "focus-trap-react": "^10.2.1",
     "gray-matter": "^4.0.3",
-    "mdx-bundler": "^9.2.1",
+    "mdx-bundler": "^6.0.3",
     "next": "10.2.3",
     "next-seo": "^6.1.0",
     "next-use-posthog": "^1.16.1",
