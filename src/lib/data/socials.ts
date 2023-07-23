@@ -59,13 +59,13 @@ const socials: Social[] = [
   //   color: 'blue',
   //   icon: FaBehance,
   //   text: 'Behance',
-  //   link: 'https://www.behance.net/ananyalohani',
+  //   link: '',
   // },
   // {
   //   color: 'sky',
   //   icon: FaTelegramPlane,
   //   text: 'Telegram',
-  //   link: 'https://t.me/ananyalohani',
+  //   link: '',
   // },
   {
     color: "teal",
