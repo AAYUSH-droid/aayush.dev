@@ -28,7 +28,7 @@ export default function RecentExp({ posts }: Props): ReactElement {
                 {experience.title}
               </h2>
               <p className="text-gray-600 mb-[8px]">{experience.description}</p>
-              <div className="flex space-x-2">
+              <div className="flex space-x-2 ">
                 <span>TechStack:</span>
                 {experience.tags.map((tag, tagIndex) => (
                   <span
